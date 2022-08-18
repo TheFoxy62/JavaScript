@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Tag</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+<style>
+    body{
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(46, 122, 236);
+        font-family: 'Oleo Script', cursive;
+        font-family: 'Teko', sans-serif;     
+    }
+</style> 
+
+    <h1>TAG</h1>
+    <!--Message-->
+    <div id="infoZoneDiv"></div>
+
+    <div> <!--Séléctionnée un tag-->
+        <label>Sélectionner un Tag : </label>
+        <select id="selectedTag"></select>
+    </div>
+    <hr>
+    <div>
+        <!--Affichage du tag et modifie le tag -->
+        <label>Tag séléctionnée: </label>
+        <input id="selectedTagName" type="text">
+    </div>
+    <br>
+    <button id="editerButton">Modifier</button>
+</body>
+</html>
